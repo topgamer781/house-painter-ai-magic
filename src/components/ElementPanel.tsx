@@ -7,7 +7,7 @@ import {
   Home, 
   Square, 
   RectangleHorizontal, 
-  Door,
+  DoorOpen,
   Building,
   Mountain
 } from "lucide-react";
@@ -28,7 +28,7 @@ const getElementIcon = (type: HouseElement['type']) => {
     case 'window':
       return RectangleHorizontal;
     case 'door':
-      return Door;
+      return DoorOpen;
     case 'chimney':
       return Building;
     case 'foundation':

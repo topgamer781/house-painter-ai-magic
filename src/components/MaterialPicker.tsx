@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
@@ -25,7 +24,6 @@ const materialDescriptions: Record<string, string> = {
   // Roof materials
   'shingles': 'Classic asphalt shingles - affordable and versatile',
   'tile': 'Clay or concrete tiles - durable and elegant',
-  'metal': 'Steel or aluminum - modern and energy efficient',
   'slate': 'Natural slate - premium and long-lasting',
   'thatch': 'Traditional straw - rustic and eco-friendly',
   'solar panels': 'Photovoltaic panels - sustainable energy',
@@ -35,7 +33,6 @@ const materialDescriptions: Record<string, string> = {
   'siding': 'Vinyl or wood siding - low maintenance',
   'stucco': 'Textured cement finish - Mediterranean style',
   'stone': 'Natural stone veneer - luxurious appearance',
-  'wood': 'Wood cladding - warm and natural',
   'concrete': 'Modern concrete - industrial aesthetic',
   
   // Window materials
@@ -47,20 +44,10 @@ const materialDescriptions: Record<string, string> = {
   // Door materials
   'wood': 'Solid wood - classic and warm',
   'metal': 'Steel or aluminum - secure and modern',
-  'glass': 'Glass panels - contemporary and bright',
   'composite': 'Wood fiber composite - durable',
   'fiberglass': 'Fiberglass - weather resistant',
   
-  // Chimney materials
-  'brick': 'Traditional brick - classic appearance',
-  'stone': 'Natural stone - rustic charm',
-  'metal': 'Metal flue - modern and efficient',
-  'concrete': 'Concrete blocks - cost effective',
-  
   // Foundation materials
-  'concrete': 'Poured concrete - standard and strong',
-  'stone': 'Natural stone - traditional look',
-  'brick': 'Brick foundation - classic style',
   'block': 'Concrete blocks - economical choice'
 };
 
